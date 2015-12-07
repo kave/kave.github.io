@@ -15,12 +15,12 @@ defaults:
     values:
       title: Blogging for the sake of blogging
 
-description: Blog using dbyll Jekyll Theme
+description: Blog using Jekyll
 author:
   name: Emmanuel Apau
   email: etapau@gmail.com
   github: kave
-  linkedin: etapau
+  linkedin: emmanuel-apau-44a30572
   bio: Blogging for the sake of blogging
   email_md5: da82d85ae4b0e070a0955811e7f9f6ac
 
