@@ -24,7 +24,7 @@ author:
   bio: Blogging for the sake of blogging
   email_md5: da82d85ae4b0e070a0955811e7f9f6ac
 
-rss_path: feed.xml
+rss_path: rss.xml
 categories_path: categories.html
 tags_path: tags.html
 
