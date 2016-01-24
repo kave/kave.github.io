@@ -19,6 +19,7 @@ comments: true
 
 ### Jekyll ###
 It takes a template directory containing raw text files in various formats, runs it through a [Markdown](https://help.github.com/articles/markdown-basics/) converter and [Liquid template renderer](http://liquidmarkup.org/). Then spits out a complete, ready-to-publish static website suitable for serving with your favorite web server. 
+
 - Simple to use
     - No Database
     - Focus on content
