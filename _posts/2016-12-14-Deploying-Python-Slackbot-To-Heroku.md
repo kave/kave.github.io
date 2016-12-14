@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deploy Python Slackbot to Heroku
+title: Deploying Python Slackbot to Heroku
 categories: [general]
 tags: [python, slackbot, heroku, github, jekyll]
 description: A tutorial to deploy a python based slackbot to heroku
@@ -15,7 +15,7 @@ comments: true
 
 ### Getting Setup ###
 - For this guide i forked a popular python based [slackbot](https://github.com/lins05/slackbot) 
-- Added my own custom responses, i'll skip this section as lins README is self explanatory
+- Added my own custom responses, i'll skip this section as lins [README](https://github.com/lins05/slackbot/blob/develop/README.md) is self explanatory
 - So now your ready to deploy your bot so its a standable entity, heroku is perfect for this because deployment is easy & its free.99
 
 
@@ -34,6 +34,7 @@ heroku update
 heroku login
 {% endhighlight %}
 
+Now its time to create/connect to your heroku app and configure your remote url.
 If you don't have an existing app
     {% highlight python %}
     heroku create
@@ -46,12 +47,12 @@ else
 Visit your Heroku Dashboard for your app and ensure you have set the `SLACKBOT_API_TOKEN` environment variable.
 
 Now that you have your remote url setup:
-{% highlight python %} 
+{% highlight python %}
 git push heroku <branch_name>
 heroku ps:scale web=1
 {% endhighlight %}
 
-You will see page when you visit your heroku URL but that is expected because this is a bot.. not a website so there is no index.html on port 80 ;)
+You will see this error when you visit your heroku URL. This is expected because this is a bot.... </br>not a website so there is no index.html on port 80 ;) </br>
 <img src="https://s3.amazonaws.com/kave-dump/application_error.png" alt="Application Error" style="width: 50%;"/>
 
 Test your bot on slack!
