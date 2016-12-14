@@ -13,6 +13,9 @@ comments: true
 
 ---------
 
+I decided to create this guide, because Heroku deployments aren't always as intuitive as we expect them to be.
+
+
 ### Getting Setup ###
 - For this guide i forked a popular python based [slackbot](https://github.com/lins05/slackbot) 
 - Added my own custom responses, i'll skip this section as lins [README](https://github.com/lins05/slackbot/blob/develop/README.md) is self explanatory
