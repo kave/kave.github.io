@@ -16,13 +16,13 @@ comments: true
 
 To enable the **Wagtail Admin Stylesheet** for local use.
 
-{% highlight python %}
+```
 INSTALLED_APPS = (
    ...
    'wagtail.contrib.wagtailstyleguide',
    ...
 )
-{% endhighlight %}
+```
 
 Access the guide at `http://localhost:8000/admin/styleguide/`
 
