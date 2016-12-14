@@ -28,6 +28,8 @@ Create a Procfile:
 web: python run.py
 ```
 
+### Heroku ###
+
 Ensure you have a Heroku account and installed their [command line tools](https://devcenter.heroku.com/articles/heroku-cli)
 
 ```
@@ -36,6 +38,7 @@ heroku login
 ```
 
 Now its time to create/connect to your heroku app and configure your remote url.
+
 If you don't have an existing app:
     ```
     heroku create
