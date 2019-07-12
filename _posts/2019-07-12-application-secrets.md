@@ -8,6 +8,8 @@ comments: true
 ---
 
 
-### Presentation Slides: [Application Secrets with AWS](https://grouchy-dev.s3.us-east-2.amazonaws.com/Application+Secret+Management+w_+AWS.pdf)
+#### Devops Days DC Presentation Slides: [Application Secrets with AWS](https://grouchy-dev.s3.us-east-2.amazonaws.com/Application+Secret+Management+w_+AWS.pdf)
 
+#### Medium Blogs
+- [From LastPass to AWS Parameter Store](https://engineering.upside.com/from-lastpass-to-aws-parameter-store-f277c03dd8c9)
 
