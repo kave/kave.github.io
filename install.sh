@@ -15,6 +15,7 @@ build(){
         echo 'Installing project dependencies...'
         gem install jekyll
         gem install pygments.rb
+        gem install jekyll-paginate
     else
         echo 'Ruby Gems is not installed...'
         echo 'Go here to install: https://rubygems.org/pages/download'

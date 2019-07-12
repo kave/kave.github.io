@@ -13,15 +13,17 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Blogging for the sake of blogging
+      title: A brain dump of written articles & slides
 
-description: Blog using Jekyll
+description: A brain dump of written articles & slides
 author:
   name: Emmanuel Apau
   email: etapau@gmail.com
   github: kave
-  linkedin: emmanuel-apau-44a30572
-  bio: Blogging for the sake of blogging
+  linkedin: emmanuel-apau
+  bio: Lead Site Reliability Engineer
+  twitter: technogrouch
+  medium: https://medium.com/@etapau
   email_md5: da82d85ae4b0e070a0955811e7f9f6ac
 
 rss_path: rss.xml
@@ -31,4 +33,4 @@ tags_path: tags.html
 BASE_PATH:
 
 # Plugins
-gems: ["jekyll-paginate"]
+plugins: ["jekyll-paginate"]
